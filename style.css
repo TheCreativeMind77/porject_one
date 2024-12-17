@@ -1,0 +1,640 @@
+/*Common section start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.mb-0{
+    margin-bottom: 0px !important;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+/*Common section end*/
+
+/*Nav Section Start*/
+.nav_section{
+    background: url("Index.jpg") no-repeat center center / 100% 100% ;
+    
+}
+
+.navbar{
+    background-color:rgba(0, 43, 66,0.9);
+    
+
+}
+
+.nav_section .logo{
+    width: 30%;
+    float: left;
+    padding: 30px 0;
+}
+.nav_section .navs
+{
+    width: 70%;
+    float: left;
+    padding: 35px 0;
+}
+
+.nav_section .navs ul{
+    float: right;
+}
+
+.nav_section .navs ul li{
+    float: left;
+    list-style-type: none;
+    
+    
+}
+
+.nav_section .navs ul li:hover a{
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+
+.nav_section .navs ul a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+.heading{
+    padding: 200px 0 300px 0;
+    
+}
+.heading h1{
+    font-size: 85px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #00314a;
+    padding-bottom: 30px;
+}
+
+.heading h3{
+    font-size: 60px;
+    font-weight: 500;
+    color: #00314a;
+    text-transform: capitalize;
+    font-family: sans-serif ;
+    padding-bottom: 35px ;
+}
+
+.heading p{
+    font-size: 22px;
+    color: #00314a;
+    text-transform: capitalize;
+    font-family: sans-serif ;
+    padding-bottom: 50px ;
+    font-weight: 700;
+    
+    
+}
+
+.heading button {
+
+    background-color: #00314a;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 50px;
+    
+    
+}
+
+.heading button a{
+    color: white;
+}
+
+/*Nav Section End*/
+
+
+
+/*Form  Section Start*/
+.form_section{
+    padding: 100px 0;
+    background-color: #f4f7fe;
+    
+
+}
+
+.form_section .input_fild{
+    width: 100%;
+    background-color: #00314a;
+    padding: 50px;
+    float: left;
+    
+    
+
+}
+
+.form_section .input_fild h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form_section .input_fild .input_text{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #00314a;
+    border-radius: 5px;
+}
+
+.form_section .input_fild .submit{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.form_section .input_fild .input_text::placeholder{
+    color: gray;
+}
+
+.form_container{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    position: relative;
+    width: 42%;
+    box-shadow: 0px 10px 30px gray;
+    max-height: 550px;
+    
+}
+
+.form .input_fild form{
+    width: 100%; 
+
+}
+.contact{
+    padding: 45px 0;
+    font-size: 18px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding: 30px 0;
+    
+    
+    
+    
+}
+
+.contact .phone_icon{
+    float: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+.contact i{
+    padding: 10px;
+    background-color: #00314a;
+    color: white;
+}
+
+.contact .number{
+    float: right;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.about{
+    width:50%;
+    font-family: sans-serif;
+    color: #00314a;
+  
+}
+
+
+.about h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #00314a;
+    position: relative;
+
+}
+.about h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #00314a;
+
+
+
+}
+.about h3{
+    padding: 44px 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: #00314a;
+    letter-spacing: 2px;
+
+}
+.about>p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #41667a;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+
+/*Form Section End*/
+
+
+
+/*schedul Section start*/
+.schedul_section{
+    padding: 80px 0;
+   
+    
+}
+
+.schedul_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.schedul_section .schedul_container .schedul_one{
+    width: 30%;
+    background-color: #00314a;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+
+}
+
+.schedul_section .schedul_container .schedul_two{
+    width: 30%;
+    background-color: #00314a;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+
+    
+    
+
+}
+
+.schedul_section .schedul_container .schedul_three{
+    width: 30%;
+    background-color: #00314a;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+
+    
+
+}
+
+.schedul_appointment{
+    background-color: white;
+    color: #00314a;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+
+.schedul_section >h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    display: block;
+}
+
+
+.schedul_section h2::after{
+    content: "";
+    position: absolute;
+    left: 49%;
+    bottom: -15px;
+    height: 4px;
+    width: 50px;
+    background-color: rgb(0, 49, 74);
+    border-radius: 2px;
+}
+/*schedul Section End*/
+.review_section{
+    padding: 45px  0;
+    background-color: #f4f7fe;
+}
+.review_section .img_part{
+    width: 25%;
+    text-align: center;
+    float: left;
+    
+    
+}
+.review_section .img_part img{
+    opacity: 1;
+    
+    
+}
+
+.review_section h3, 
+.review_section p{
+    color: #00314a;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.review_section .customer_comment{
+    width: 70%;
+    float: left;
+    text-align: center;
+
+    
+}
+
+
+.review_section  h2{
+    color: #00314a;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+
+}
+
+.review_section  h2::after{
+    content: "";
+    height: 4px;
+    width: 50px;
+    background-color: #00314a;
+    border-radius: 2px;
+    position: absolute;
+    left: 49%;
+    bottom: -15px;
+}
+.review_section >img{
+    width: 50px;
+    padding: 45px 0;
+    margin-left: 49%;
+    
+}
+
+.review_section .customer_comment p{
+    color: #00314a;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 22px;
+    margin-right: 50px;
+    margin-bottom: 180px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    
+
+}
+
+/*counter Section start*/
+
+.counter_section{
+    padding: 110px 0;
+    background: url("group.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.counter_section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 49, 74,0.85);
+    
+}
+
+.counter_section .container{
+    position: relative;
+    z-index: 2;
+}
+
+.happy_patient{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.happy_patient h2{
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 20px 0 0;
+
+}
+
+.happy_patient p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+/*counter Section end*/
+
+
+
+/*blog Section start*/
+.personal_blog{
+    padding-top:60px ;
+}
+
+.personal_blog h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.personal_blog h2::after{
+    content: "";
+    position: absolute;
+    left: 49%;
+    bottom: -15px;
+    height: 4px;
+    width: 70px;
+    background-color: #00314a;
+    border-radius: 2px;
+    
+
+}
+.personal_blog .blog{
+    width: 30%;
+    font-family: sans-serif;
+    background-color: #00314a;
+    color: white;
+
+
+}
+
+
+.personal_blog .blog_container{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.personal_blog .blog img{
+    width: 100%;
+}
+
+.personal_blog .blog .content p,
+.personal_blog .blog .content h3{
+    color: white;
+    padding: 20px ;
+    
+    
+}
+
+.personal_blog .blog .content .love img{
+    width: 25px;
+    margin-top: 22px;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    
+}
+.personal_blog .blog .content .sms img{
+    width: 25px;
+    margin-top: 22px;
+    color: white;
+    float: left;
+    margin-left: 80px;
+    
+}
+
+.personal_blog .blog .content .love p{
+    
+    float: left;
+
+}
+.personal_blog .blog .content .sms p{
+    text-align: right;
+    margin-right: 30px;
+}
+/*blog Section end*/
+
+
+
+/*footer Section start*/
+.footer_area{
+    background-color: #00314a;
+    padding: 30px;
+    color: white;
+}
+.footer_area .footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_area .first_part{
+    width: 40%;
+    
+}
+
+.footer_area .first_part img{
+    padding: 20px 0;
+}
+
+.footer_area .first_part p{
+    font-family: sans-serif;
+    font-size: 16px;
+
+
+}
+
+.footer_area .second_part{
+    width: 25%;
+
+}
+
+.footer_area .second_part h3{
+    font-size: 22px;
+    padding: 22px 0;
+
+}
+
+.footer_area .second_part ul{
+    list-style-type: none;
+    text-align: left;
+
+}
+
+.footer_area .third_part{
+    width: 25%;
+    padding: 22px 0;
+    text-align: right;
+}
+
+.footer_area .third_part h2{
+    padding-bottom: 20px;
+}
+
+
+
+/*footer Section end*/
+
+
